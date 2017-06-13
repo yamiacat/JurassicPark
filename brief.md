@@ -1,10 +1,10 @@
 # Jurassic Park homework
 
-John Hammond wants to be able to manage the dinosaurs at Jurassic Park. (uhoh)
+<!-- John Hammond wants to be able to manage the dinosaurs at Jurassic Park. (uhoh)
 
-A dinosaur should have a type (e.g. "Tyrannosaurus", "Velociraptor", "Triceratops") and a number of offspring per year.
+A dinosaur should have a type (e.g. "Tyrannosaurus", "Velociraptor", "Triceratops") and a number of offspring per year. -->
 
-A park should have an enclosure that can have dinosaurs added to it.
+<!-- A park should have an enclosure that can have dinosaurs added to it.
 
 Use TDD to write and make pass the following tests:
 
@@ -13,8 +13,8 @@ Dinosaur:
 2. should have a number of offspring per year
 
 Park:
-1. enclosure should start empty
-2. should be able to add dinosaur
+1. enclosure should start empty -->
+<!-- 2. should be able to add dinosaur -->
 3. should be able to remove all dinosaurs of a particular type
 4. should get all the dinosaurs with an offspring count of more than 2
 
