@@ -9,7 +9,7 @@ describe("Enclosure", function() {
 
   beforeEach(function() {
     enclosure = new Enclosure();
-    dinosaur1 = new Dinosaur("Tyranosaur");
+    dinosaur1 = new Dinosaur("Tyranosaur", 1);
     dinosaur2 = new Dinosaur("Stegosaur", 20);
   });
 
@@ -41,5 +41,23 @@ describe("Enclosure", function() {
   });
 
 
+    it("should be able to remove other dinosaurs by type", function() {
+      enclosure.add(dinosaur1);
+      enclosure.add(dinosaur1);
+      enclosure.add(dinosaur1);
+      enclosure.add(dinosaur2);
+      enclosure.removeByType("Stegosaur");
+
+      assert.strictEqual(3, enclosure.pen.length);
+    });
+
+
+      it("should be able to remove dinosaurs by fertility", function() {
+        enclosure.add(dinosaur1);
+        enclosure.add(dinosaur2);
+        enclosure.removeByFertility(2);
+
+        assert.strictEqual(1, enclosure.pen.length);
+      });
 
 });

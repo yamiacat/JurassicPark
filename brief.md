@@ -15,8 +15,8 @@ Dinosaur:
 Park:
 1. enclosure should start empty -->
 <!-- 2. should be able to add dinosaur -->
-3. should be able to remove all dinosaurs of a particular type
-4. should get all the dinosaurs with an offspring count of more than 2
+<!-- 3. should be able to remove all dinosaurs of a particular type -->
+<!-- 4. should get all the dinosaurs with an offspring count of more than 2 -->
 
 
 # Extension
